@@ -1,7 +1,8 @@
 ```markdown
 # Simple Node.js Blockchain
 
-This project implements a simple blockchain using Node.js. It includes a blockchain client that can send transactions, mine blocks, and retrieve block data. It mines block on an average of 3 seconds
+This project implements a simple blockchain using Node.js. It includes a blockchain client that can send transactions, mine blocks, and retrieve block data. It mines block on an average of 3 seconds.
+It also include a module for issuing assets on stellar testnet
 
 ## Getting Started
 
@@ -70,6 +71,16 @@ const blockData = client.getBlockAt(blockNumber);
 const allBlocks = client.getAllBlocks();
 ```
 
+#### Stellar Assets
+
+```javascript
+
+const { start } = require("./src/controller/stellar_asset")
+
+// Issue a new asset
+start("AssetName")
+
+```
 ## License
 
 This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.

@@ -5,6 +5,7 @@
 
 /* IMPORT */
 const { BlockchainClient } = require("./src/controller/blockchain")
+const { start } = require("./src/controller/stellar_asset")
 
  
 //initialize new blockchain client with a random id
@@ -29,4 +30,5 @@ setInterval(()=> {
     })
 }, 10)
 
+start("Guudc") //issue a stellar asset
  

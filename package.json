@@ -9,6 +9,7 @@
   "author": "Amadasun E. Goodness A.K.A COAT (Coder of all time)",
   "license": "GNU General Public License",
   "dependencies": {
-    "crypto": "^1.0.1"
+    "crypto": "^1.0.1",
+    "stellar-sdk": "^10.4.1"
   }
 }
