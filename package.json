@@ -7,7 +7,7 @@
     "start": "node start.js"
   },
   "author": "Amadasun E. Goodness A.K.A COAT (Coder of all time)",
-  "license": "MIT",
+  "license": "GNU General Public License",
   "dependencies": {
     "crypto": "^1.0.1"
   }
