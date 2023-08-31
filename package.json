@@ -1,0 +1,14 @@
+{
+  "name": "simple_blockchain",
+  "version": "1.0.0",
+  "description": "A simple project that implements the blockchain system using POW as the consensus engine. It features mining, genesis block, submitting transactions, multiple nodes, getting blocks data",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "Amadasun E. Goodness A.K.A COAT (Coder of all time)",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
