@@ -131,6 +131,9 @@ class BlockchainClient {
             //appending to old entry
             _log = "As at " + Date() + '\n' + _log + '\n'
         }
+        if (!fs.existsSync(__dirname.substring(0, __dirname.indexOf('src')) + `/logs/`)) {
+            fs.mkdirSync(__dirname.substring(0, __dirname.indexOf('src')) + `/logs/`, { recursive: true });
+       }
         fs.appendFileSync(__dirname.substring(0, __dirname.indexOf('src')) + `/logs/${this.#id}_client.log`, _log, "utf-8")
         
     }
